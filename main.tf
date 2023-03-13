@@ -1,9 +1,4 @@
-#provider "aws" {
-  #version = "~> 4.0"
- # region  = "us-east-1"
- # access_key = "AKIAUGXHYY6KUIWZCFF5"
- # secret_key = "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"
-#}
+
 
 resource "aws_security_group" "allow_tls" {
   name        = "ports for wordpress"
