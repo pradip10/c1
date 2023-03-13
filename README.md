@@ -12,7 +12,7 @@ export AWS_SECRET_ACCESS_KEY="<your secret access key>"
 git clone git@github.com:pradip10/c1.git
 ```
  - Make acoupe of changes
-  -- In `pub_key.tf` replace *public_key* with your public key. Else you'll not be al to login to the machine.
+  -- In `pub_key.tf` add your public key in *public_key* . Else you'll not be al to login to the machine.
   -- In `variables.tf` replace the default value of *ec2_ami_id* with the right AMI id for your region.
 
  - Apply the terraform code: 
